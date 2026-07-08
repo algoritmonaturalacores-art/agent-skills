@@ -8,7 +8,7 @@ Specialist personas that play a single role with a single perspective. Each pers
 | [security-auditor](../agents/security-auditor.md) | Security Engineer | Vulnerability detection, OWASP-style audit |
 | [test-engineer](../agents/test-engineer.md) | QA Engineer | Test strategy, coverage analysis, Prove-It pattern |
 | [web-performance-auditor](../agents/web-performance-auditor.md) | Web Performance Engineer | Core Web Vitals audit, loading/rendering/network analysis |
-| [executive-office-manager](../agents/executive-office-manager.md) | Executive Office Manager | Business/administrative documentation — proposals, contracts, invoices, SOPs (not a code-review persona; not part of `/ship`) |
+| [executive-office-manager](../agents/executive-office-manager.md) | Rita — Executive Office Manager | Business/administrative documentation — proposals, contracts, invoices, SOPs (not a code-review persona; not part of `/ship`) |
 
 ## How personas relate to skills and commands
 
