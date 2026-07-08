@@ -236,14 +236,15 @@ The commands above are entry points. The pack includes 24 skills total — 23 li
 
 ## Agent Personas
 
-Pre-configured specialist personas for targeted reviews:
+Pre-configured specialist personas for targeted reviews (plus one non-review persona for business documentation):
 
 | Agent | Role | Perspective |
 |-------|------|-------------|
 | [code-reviewer](agents/code-reviewer.md) | Senior Staff Engineer | Five-axis code review with "would a staff engineer approve this?" standard |
-| [test-engineer](agents/test-engineer.md) | QA Specialist | Test strategy, coverage analysis, and the Prove-It pattern |
+| [test-engineer](agents/test-engineer.md) | Rita — QA Specialist | Test strategy, coverage analysis, and the Prove-It pattern |
 | [security-auditor](agents/security-auditor.md) | Security Engineer | Vulnerability detection, threat modeling, OWASP assessment |
 | [web-performance-auditor](agents/web-performance-auditor.md) | Web Performance Engineer | Core Web Vitals audit with Quick/Deep modes and a metric-honesty rule; run it via `/webperf` |
+| [executive-office-manager](agents/executive-office-manager.md) | Rita — Executive Office Manager | Business/administrative documentation — proposals, contracts, invoices, SOPs; not part of `/ship` |
 
 See [docs/agents.md](docs/agents.md) for the decision matrix, orchestration rules, and how personas compose with skills and slash commands.
 
@@ -325,7 +326,7 @@ agent-skills/
 │   ├── observability-and-instrumentation/ # Ship
 │   ├── shipping-and-launch/           #   Ship
 │   └── using-agent-skills/            #   Meta: how to use this pack
-├── agents/                            # 4 specialist personas
+├── agents/                            # 5 specialist personas
 ├── references/                        # 5 supplementary checklists
 ├── hooks/                             # Session lifecycle hooks
 ├── .claude/commands/                  # 8 slash commands (Claude Code)
