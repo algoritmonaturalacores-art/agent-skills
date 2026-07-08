@@ -241,7 +241,7 @@ Pre-configured specialist personas for targeted reviews (plus one non-review per
 | Agent | Role | Perspective |
 |-------|------|-------------|
 | [code-reviewer](agents/code-reviewer.md) | Senior Staff Engineer | Five-axis code review with "would a staff engineer approve this?" standard |
-| [test-engineer](agents/test-engineer.md) | QA Specialist | Test strategy, coverage analysis, and the Prove-It pattern |
+| [test-engineer](agents/test-engineer.md) | Rita — QA Specialist | Test strategy, coverage analysis, and the Prove-It pattern |
 | [security-auditor](agents/security-auditor.md) | Security Engineer | Vulnerability detection, threat modeling, OWASP assessment |
 | [web-performance-auditor](agents/web-performance-auditor.md) | Web Performance Engineer | Core Web Vitals audit with Quick/Deep modes and a metric-honesty rule; run it via `/webperf` |
 | [executive-office-manager](agents/executive-office-manager.md) | Rita — Executive Office Manager | Business/administrative documentation — proposals, contracts, invoices, SOPs; not part of `/ship` |
