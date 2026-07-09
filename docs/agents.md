@@ -4,10 +4,10 @@ Specialist personas that play a single role with a single perspective. Each pers
 
 | Persona | Role | Best for |
 |---------|------|----------|
-| [code-reviewer](../agents/code-reviewer.md) | Senior Staff Engineer | Five-axis review before merge |
-| [security-auditor](../agents/security-auditor.md) | Security Engineer | Vulnerability detection, OWASP-style audit |
+| [code-reviewer](../agents/code-reviewer.md) | Francisco C. — Senior Staff Engineer | Five-axis review before merge |
+| [security-auditor](../agents/security-auditor.md) | Toni (António C.T.) — Security Engineer | Vulnerability detection, OWASP-style audit |
 | [test-engineer](../agents/test-engineer.md) | Rita — QA Engineer | Test strategy, coverage analysis, Prove-It pattern |
-| [web-performance-auditor](../agents/web-performance-auditor.md) | Web Performance Engineer | Core Web Vitals audit, loading/rendering/network analysis |
+| [web-performance-auditor](../agents/web-performance-auditor.md) | João Paulo — Web Performance Engineer | Core Web Vitals audit, loading/rendering/network analysis |
 | [executive-office-manager](../agents/executive-office-manager.md) | Rita — Executive Office Manager | Business/administrative documentation — proposals, contracts, invoices, SOPs (not a code-review persona; not part of `/ship`) |
 
 ## How personas relate to skills and commands
